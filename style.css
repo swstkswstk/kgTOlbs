@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  transform: scale(1);
+  transition: transform 0.3s ease-in;
+}
+
+.card:hover {
+  transform: scale(1.05);
+
+}
